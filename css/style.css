@@ -2,7 +2,7 @@ body{
     background-color:#fff7d7;}
 
 header{
-  color:#FFF;
+  color:#000;
   background-color: #d1d1d1;
   
 nav{ 
@@ -17,7 +17,8 @@ nav ul{
 li{
     display: inline-block;
     a:link, a:visited {
-    text-decoration: none;}}
+color: #000;
+padding: 0px 8px;}}
 }
 header img{
 width: 10%;
