@@ -1,0 +1,88 @@
+body{
+    background-color:#fff7d7;}
+
+header{
+  color:#FFF;
+  background-color: #d1d1d1;
+  
+nav{ 
+    width: 80%;
+    display: inline-block;}
+
+nav ul{
+    padding-left: 0;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    a:link, a:visited {
+    text-decoration: none;}}
+}
+header img{
+width: 10%;
+position: relative;
+top: 20px;
+ }
+ .nbgrid{
+    display:grid;
+    grid-template-columns: 40% 40%;
+    justify-content:center;
+    row-gap:12px;
+    column-gap:48px;
+ }
+.nbgrid img{
+    width:100%;
+    align-items:center;
+ }
+
+ .parkflex {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap:12px;
+ }
+ 
+
+ /* li {
+    display: inline-block;
+    margin: 8px; 
+    width:fit-content; 
+    background-color:#FFFFFF; 
+    padding-right: 8px; 
+    padding-left: 8px; 
+    padding-top:2px; 
+    padding-bottom:4px; 
+    a:link, a:visited {
+  color: #2660a9;
+  text-decoration: none;
+  }} */
+
+
+
+body{
+   h1{
+    text-align:center;}
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  color: #FFF;
+  main{
+  background-color: #ffb000;
+  p{
+    color:#000;
+    font-size:20px;
+    line-height: 1; 
+  }
+  a:link, a:visited {
+  color: #000;
+  }
+}
+}
+  footer{
+    background-color:#2660a9;
+    color: #FFF;
+    a:link, a:visited {
+  color: #fff;
+  text-decoration: none; /* 底線也消失 */
+  }
+  }
